@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: black;
+}
+h1 {
+    color: maroon;
+    font-size: 40pt;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    text-align: center;
+}
+img {
+    height: 200px;
+    width: 200px; 
+}
+body {
+    margin: 10%;
+}
+.menuItem {
+    text-align: center;
+    padding: 15px;
+    background-color: gray;
+    display: inline-block;
+    width: 100px;
+    box-sizing: border-box;
+}
+.menuItem:hover {
+
+    background-color: lightgray;
+    color: maroon;
+
+}
+.img {
+    width: 200px;
+    height: 200px;
+}
